@@ -13,12 +13,12 @@ int relay = 3; //En este pin va conectado el relay
 int proy = 4; //En esste pin va conectado el proyector
 
 //Tiempos
-const double TIEMPO_ENCENDIDO = 15000; // Tiempo que dura echando humo (15 seg)
-const double TIEMPO_APAGADO = 15000; // Tiempo que dura sin echar humo (15 seg)
-const int CICLOS = 15; // Cuantas veces se activa en esa cantidad de segundos (15 clics)
+const double TIEMPO_ENCENDIDO = 8000; // Tiempo que dura echando humo (8 seg)
+const double TIEMPO_APAGADO = 8000; // Tiempo que dura sin echar humo (8 seg)
+const int CICLOS = 8; // Cuantas veces se activa en esa cantidad de segundos (8 clics)
 const double ARRANQUE_FRIO = 150000; // Tiempo de arranque frio (2 min 30)
-const double INTERVALO = 300000; // Tiempo entre cada activación (5 min)
-const double DURACION_FUNCION = 75000; //Tiempo que se queda encendida la secuencia (1 min 15 seg
+const double INTERVALO = 150000; // Tiempo entre cada activación (3 min)
+const double DURACION_FUNCION = 16000; //Tiempo que se queda encendida la secuencia (16 seg)
 double timeNow, timeLast, timeFunc;
 
 const double DUTY_CYCLE = TIEMPO_ENCENDIDO / (CICLOS * 2);
