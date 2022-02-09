@@ -1,3 +1,13 @@
+/*
+ * Autor: Hugo Escalpelo
+ * Artista: Viviana Díaz
+ * Fecha: 9 de febreri de 2022
+ * 
+ * Este programa tiene como proposito activar la máquina de humo de la pieza
+ * Inestable Evocación de la Artísta colombiana Viviana Díaz. Esto sucede de manera
+ * sincronizada con los proyectores de dicha pieza.
+ */
+
 //Configuración de pines
 int relay = 3; //En este pin va conectado el relay
 int proy = 4; //En esste pin va conectado el proyector
