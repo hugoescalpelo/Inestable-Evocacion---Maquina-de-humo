@@ -17,7 +17,7 @@ const double TIEMPO_ENCENDIDO = 8000; // Tiempo que dura echando humo (8 seg)
 const double TIEMPO_APAGADO = 8000; // Tiempo que dura sin echar humo (8 seg)
 const int CICLOS = 8; // Cuantas veces se activa en esa cantidad de segundos (8 clics)
 const double ARRANQUE_FRIO = 150000; // Tiempo de arranque frio (2 min 30)
-const double INTERVALO = 150000; // Tiempo entre cada activación (3 min)
+const double INTERVALO = 180000; // Tiempo entre cada activación (3 min)
 const double DURACION_FUNCION = 16000; //Tiempo que se queda encendida la secuencia (16 seg)
 double timeNow, timeLast, timeFunc;
 
